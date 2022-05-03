@@ -8,7 +8,7 @@ if (numero2 > numero1) {
     suma1 = suma1 + contador;
   }
   console.log("el resultado es de: ", suma1);
-} else if (numero2 < numero1) {
+} else {
   for (let contador: number = numero1; contador >= numero2; contador--) {
     suma1 = suma1 + contador;
   }
